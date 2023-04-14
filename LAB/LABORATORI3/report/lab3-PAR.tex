@@ -1,0 +1,44 @@
+\documentclass[a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx,amssymb}
+\usepackage{xspace}
+\usepackage{fullpage}
+\usepackage{multirow} 
+\usepackage{color}
+
+\newcounter{saveenumi}
+
+\begin{document}
+\title{PAR Laboratory Assignment \\ Lab 3: Iterative task decomposition with OpenMP: \\ the computation of the Mandelbrot set}
+\author{Mario Acosta, Eduard Ayguad\'e, Rosa M. Badia(Q1), \\ Josep Ramon Herrero(Q1), Daniel Jim\'enez-Gonz\'alez, Pedro Martínez-Ferrer, Adrian Munera,\\ Jordi Tubella and Gladys Utrera}
+\date{Spring 2022-23 \\ \vspace{14cm} \includegraphics[height=1cm]{img/upc.jpg}}
+
+\maketitle
+
+\newcommand{\omp} {\emph{OpenMP}\xspace}
+\newcommand{\xtrae} {\emph{Extrae}\xspace}
+\newcommand{\prver} {\emph{Paraver}\xspace}
+\newcommand{\tareador} {\emph{Tareador}\xspace}
+\newcommand{\make} {\texttt{Makefile}\xspace}
+
+\renewcommand{\contentsname}{Index}
+\tableofcontents
+\addcontentsline{toc}{chapter}{Index}
+
+\vspace{5cm}
+\noindent {\bf Note:} 
+\begin{itemize}
+\item This laboratory assignment will be done in two sessions (2 hours each). For the first session we suggest you do chapter 2 and start with chapter 3.
+\item All files necessary to do this laboratory assignment are available in a compressed tar file available from the following location: \texttt{/scratch/nas/1/par0/sessions/lab3.tar.gz} in \texttt{boada.ac.upc.edu}.
+%Copy it to your home directory in \texttt{boada.ac.upc.edu} and uncompress it with this command line: \texttt{"tar -zxvf lab3modelfactors.tar.gz"}.
+Uncompress it with this command line:\\
+\texttt{"tar -zxvf \textasciitilde{}par0/sessions/lab3.tar.gz"}.
+\end{itemize}
+
+\renewcommand{\chaptername}{}
+
+\input{lab3-previous.tex}
+\input{lab3-enunciat.tex}
+%\input{lab3-deliverable.tex}
+
+\end{document}
