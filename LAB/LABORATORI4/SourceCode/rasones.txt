@@ -1,0 +1,39 @@
+
+
+
+TO DO:
+-tornar a treure les taules del leaf (en latex)
+- tornar a fer el modelfactors
+
+rasones leaf strategy is shit:
+1. mucho overhead (syncro)
+2. força scheduling
+3. mucho taskwait
+
+rasones tree strategy is shit:
+1. cada cop les tasques triguen mes
+2. la majoria del programa consisteix en creacio de tasques
+3. hi ha un alt percentatje de overhead per sincronitzacio de tasques
+
+TREE VS LEAF 
+- la granularitat es massa fina en ambdos estrategies.
+- 99669 tasques en tree vs 60000k?????? en leaf strategy?
+
+rasones TREE DEPEND
+-es millor que el tree strategy
+-pitjor que el CUTOFF
+-la programabilitat es mes complicada ja que cal saber quines variables provoquen les dependencies i no quines tasques????
+
+
+
+
+
+preguntar al profe:
+-diferencia taskwaits o fer un taskgroup??????????!?  --------------> resposta: el taskgroup espera totes les tasques filles netes besnetes, el taskwait nomes les actuals, llavors calen molts taskwaits
+
+
+
+
+
+
+{es, enginyeres, enginyerenginyeres, enginyerenginyeresenginyeres}
