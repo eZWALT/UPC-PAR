@@ -1,0 +1,9 @@
+PREGUNTA 1:NAO NAO
+
+PREGUNTA 2:
+a) LA VARIABLE SUM
+b) reduction amb variable local
+c) si
+d) jacobo es millor que gregorio-santi perque hi han dependencies al moment de fer la copia
+
+PREGUNTA 3:
